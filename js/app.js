@@ -27,7 +27,6 @@ document.getElementById('searchField').addEventListener('keypress', async (e) =>
         const validData = getCheckValue(e.target.value);
         const searchEnterData = await loadData(validData);
         isExistValue(validData, searchEnterData);
-
     }
 });
 
