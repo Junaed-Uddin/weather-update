@@ -7,3 +7,16 @@
   background-size: cover;
   height: 100vh;
 }
+
+
+@media only screen and (max-width:575.98px){
+  #city{
+    font-size: 1.2rem;
+  }
+  #feel-temperature{
+    font-size: 1.1rem;
+  }
+  #clouds{
+    font-size: 1.2rem;
+  }
+}
